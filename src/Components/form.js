@@ -14,7 +14,7 @@ class CommentForm extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    this.props.dispatch(addComment( Чё сюда передавать?))
+    this.props.dispatch(addComment())
   }
 
   render() {
