@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+label {
+  margin: 10px;
+}
+
+textarea {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.commentList {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.commentItem {
+  margin: 15px 10px;
+  list-style-type: none;
+}
+
+.deleteBtn {
+  margin-left: 10px;
+}
+
+.date {
+  margin-left: 10px;
+}
